@@ -1,7 +1,9 @@
 public class Main {
+    public static void main(String[] args) {
+        calc("1 + 3");
+    }
 
     public static String calc(String input) {
-
 
         switch (input) {
             case "1 + 1":
