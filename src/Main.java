@@ -1,7 +1,14 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        calc("1 + 3");
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Введите два числа по заданным параметрам");
+        calc(sc.nextLine());
+        sc.close();
+
     }
+
 
     public static String calc(String input) {
 
